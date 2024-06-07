@@ -38,9 +38,10 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  console.log('NEXT_PUBLIC_URL', NEXT_PUBLIC_URL);
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>{NEXT_PUBLIC_URL}</h1>
     </>
   );
 }

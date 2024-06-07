@@ -191,3 +191,13 @@ Check out the following places for more OnchainKit-related content:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## ローカルでバリデーターを建てる方法
+
+```bash
+git clone https://github.com/coinbase/onchainkit.git
+
+cd onchainkit/framegear
+bun install
+bun run dev
+```
