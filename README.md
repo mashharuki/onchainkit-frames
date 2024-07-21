@@ -201,3 +201,9 @@ cd onchainkit/framegear
 bun install
 bun run dev
 ```
+
+そのあとこっちを起動する。
+
+```bash
+yarn dev
+```
